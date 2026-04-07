@@ -1,0 +1,44 @@
+# Скомпилированные бинарники
+fat16-server
+fat16-client
+libfat16.so
+libfat16.h
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Образы дисков (могут быть большими)
+*.img
+*.iso
+*.vhd
+*.vhdx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+tmp/
+temp/
+
+# Зависимости Go (они фиксируются в go.mod)
+vendor/
+
+# Файлы сборки
+dist/
+build/
+bin/
+
+# Файлы конкретно твоего проекта
+fat16.img
+images/
